@@ -4,11 +4,11 @@
   "description": "A simple server running stockfish.js engine",
   "main": "server.js",
   "dependencies": {
+    "chess.js": "^1.0.0-beta.3",
     "express": "^4.17.1",
     "pkg": "^4.4.0",
     "stockfish": "^10.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
@@ -36,5 +36,6 @@
   "bugs": {
     "url": "https://github.com/hyugit/stockfish-server/issues"
   },
-  "homepage": "https://github.com/hyugit/stockfish-server#readme"
+  "homepage": "https://github.com/hyugit/stockfish-server#readme",
+  "type": "module"
 }
